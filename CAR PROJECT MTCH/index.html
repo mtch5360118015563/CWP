@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-05 CO. | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="checker-icon">🏁</span> P-05 CO.
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+        </nav>
+        <div class="menu-wrapper">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#" class="menu-item active">Home</a>
+                <a href="about.html" class="menu-item disabled" onclick="return false;">About</a>
+                <a href="cars.html" class="menu-item active">Cars</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero-container">
+        
+        <div class="hero-card">
+            <span class="sub-title">SHOP</span>
+            <h1 class="main-title">CAR DEALER</h1>
+            <p class="description">
+                Welcome to Prototype-05. We operate at the intersection of structural permanence and violent acceleration. 
+                Our collection is built for the disciplined driver who views the automobile not as a luxury, but as an absolute 
+                fine arts and a monument to human capability. No excess. No compromise.
+            </p>
+        </div>
+
+        <div class="car-container left-car">
+            <img src="C:\Users\Anabell\Downloads\CAR PROJECT MTCH\home-P1-car.png" alt="McLaren P1">
+        </div>
+
+        <div class="car-container right-car">
+            <img src="C:\Users\Anabell\Downloads\CAR PROJECT MTCH\home-DJ-car.png" alt="Diablo Jota">
+        </div>
+
+        <div class="cta-wrapper">
+            <a href="about.html" class="cta-button" id="ctaBtn">
+                <span>Learn More</span>
+                <div class="arrow-circle">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </div>
+            </a>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
